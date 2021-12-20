@@ -9,6 +9,8 @@ body {
     color: #39a6b2;
 }
 
+/* HEADER / NAVBAR STYLES START */
+
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -47,6 +49,11 @@ header nav ul li a {
     font-size: 1.55vw;
 }
 
+/* HEADER / NAV STYLES END  */
+
+
+
+/* FOOTER STYLES START */
 footer {
     background-color: #fce138;
     width: 100%;
@@ -62,6 +69,12 @@ footer h2 {
     margin: 0;
 }
 
+/* EMOJI FIX */
+footer h2 span {
+    font-weight: lighter;
+}
+/* EMOJI FIX END */
+
 footer div {
     line-height: 1.5;
     text-align: right;
@@ -70,11 +83,14 @@ footer div {
 footer a {
     color: #024e76;
 }
+/* FOOTER STYLES END */
 
+/* STYLES ALL SECTION TAGS */
 section {
     padding: 60px;
 }
 
+/* HERO STYLES */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
@@ -140,10 +156,15 @@ section {
     font-size: 16px;
 }
 
+/* END HERO STYLES */
+
+
+
+/* SECTION TITLE STYLES */
 .section-title {
     font-size: 48px;
+    border-bottom: 3px solid;
     color: #024e76;
-    margin-bottom: 35px;
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
@@ -157,7 +178,9 @@ section {
 .secondary-border {
     border-color: #39a6b2;
 }
+/* SECTION TITLE STYLES END */
 
+/* WHAT WE DO */
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
@@ -166,7 +189,10 @@ section {
     margin: 0 auto;
     text-align: center;
 }
+/* WHAT WE DO END */
 
+
+/* WHAT YOU DO */
 .steps {
     background: #fce138
 }
@@ -218,7 +244,9 @@ section {
     line-height: 1.5;
     color: #024e76
 }
+/* WHAT YOU DO END */
 
+/* MEET THE TRAINERS */
 .trainers {
     width: 100%;
     margin: 0 auto;
@@ -256,7 +284,10 @@ section {
 .trainer-bio p {
     font-size: 17px;
 }
+/* MEET THE TRAINERS END */
 
+
+/* REACH OUT */
 .contact {
     background: #024e76;
 }
@@ -320,7 +351,11 @@ section {
     padding: 15px 0;
     font-size: 16px;
 }
+/* REACH OUT END */
 
+
+
+/* UTILITIES */
 .text-left {
     text-align: left;
 }
